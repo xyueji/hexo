@@ -13,6 +13,11 @@
 <% if (theme.TipTitle){ %>
   <%- partial('post/TipTitle') %>
 <% } %>
+<% if (theme.galmenu){ %>
+  <%- css('galmenu/GalMenu') %>
+  <%- js('galmenu/GalMenu') %>
+  <%- partial('galmenu') %>
+<% } %>
 <% if (theme.search_box){ %>
     <script type="text/javascript">
       window.onload = function(){
