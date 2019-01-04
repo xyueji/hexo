@@ -13,6 +13,11 @@ Phoenix安装完成后，HBase里会创建相应的系统表，分别为SYSTEM.C
 内容是所有表格的信息，系统表和自建表。
 + TABLE_NAME表示索引表名
 + DATA_TABLE_NAME表示原数据表名
++ TABLE_TYPE表示表类型
+	+ "s" 系统表
+	+ "u" 用户表
+	+ "v" 视图
+	+ "i" 索引
 + INDEX_TYPE表示索引类型 GLOBAL(1) LOCAL(2)
 + INDEX_STATE表示索引状态
 	+ BUILDING("b")
