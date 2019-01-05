@@ -2,7 +2,7 @@
   font-family: sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  color: #FFF;
+  color: #999;
   word-wrap: break-word;
   * {
     box-sizing: border-box;
@@ -49,10 +49,17 @@
 
 .gitment-root-container, .gitment-header-container {
   margin: 19px 40px;
+  font-weight: bold;
+  color: #999;
 }
 
 .gitment-header-like-btn {
   cursor: pointer;
+  color: #999;
+}
+
+.gitment-container.gitment-header-container>span {
+    color: #999;
 }
 
 .gitment-comment-like-btn {
@@ -82,20 +89,21 @@
 a.gitment-header-issue-link {
   float: right;
   line-height: 30px;
-  color: #FFF;
+  color: #999;
   &:visited {
     float: right;
     line-height: 30px;
-    color: #666;
+    color: #999;
   }
   &:hover {
-    color: #666;
+    color: #999;
   }
 }
 
 .gitment-comments-loading, .gitment-comments-error, .gitment-comments-empty {
   text-align: center;
   margin: 50px 0;
+  color: #999;
 }
 
 .gitment-comments-list {
@@ -188,7 +196,6 @@ a.gitment-header-issue-link {
 
 .gitment-comment-header {
   margin: 12px 15px;
-  color: #FFF;
   background-color: #3f3f3f;
   border-radius: 3px;
 }
@@ -201,10 +208,10 @@ a.gitment-header-issue-link {
 
 a.gitment-comment-name {
   font-weight: 600;
-  color: #666;
+  color: #66ccff;
   &:visited {
     font-weight: 600;
-    color: #666;
+    color: #66ccff;
   }
 }
 
@@ -241,7 +248,9 @@ a.gitment-comment-name {
   margin-top: -30px;
   margin-right: 15px;
 }
-
+.gitment-comment-body.gitment-markdown {
+    color: #dc965a;
+}
 a {
   &.gitment-footer-project-link, &.gitment-editor-login-link {
     color: #2196F3;
@@ -252,7 +261,7 @@ a {
   &.gitment-editor-logout-link {
     color: #4094c7;
     &:visited {
-      color: #666;
+      color: #999;
     }
     &:hover {
       color: #2196F3;
@@ -311,7 +320,6 @@ a {
 }
 
 .gitment-editor-body textarea {
-  display: block;
   width: 100%;
   min-height: 150px;
   max-height: 500px;
@@ -319,10 +327,10 @@ a {
   resize: vertical;
   max-width: 100%;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   background-color: #3f3f3f;
-  color: #FFF;
+  color: #999;
   vertical-align: middle;
   border: none;
   border-radius: 0;
@@ -344,6 +352,11 @@ a {
   word-wrap: break-word;
 }
 
+.gitment-editor-write-field textarea {
+    color: #999;
+    font-weight: 600;
+}
+
 .gitment-editor-footer {
   padding: 0;
   margin-top: 10px;
@@ -358,7 +371,7 @@ a.gitment-editor-footer-tip {
   display: inline-block;
   padding-top: 10px;
   font-size: 12px;
-  color: #666;
+  color: #999;
   &:hover {
     color: #2196F3;
     text-decoration: none;
@@ -442,7 +455,7 @@ a.gitment-editor-footer-tip {
  * Copied from https://github.com/sindresorhus/github-markdown-css
  */
 
-/*.gitment-markdown {
+.gitment-markdown {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
@@ -1006,4 +1019,4 @@ a.gitment-editor-footer-tip {
   hr {
     border-bottom-color: #eee;
   }
-}*/
+}

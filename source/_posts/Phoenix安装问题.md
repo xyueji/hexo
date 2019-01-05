@@ -8,6 +8,8 @@ categories:
 ---
 ## 下载Phoenix
 下载地址:http://phoenix.apache.org/download.html(hbase的版本一定要与phoenix的版本保持一致)
+
+<!--more-->
 ## 配置Phoenix
 * 解压缩文件
 * 配置Phoenix环境变量

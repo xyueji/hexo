@@ -46,34 +46,12 @@ subnav:
 # Chose ONE as your comment system and keep others disable.
 # 选一个作为网站评论系统，其他保持禁用。
 
-disqus: 
-  on: true
-  shortname: yueji
-  # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
-  # It is unnecessary to enable disqus here if 
-  # you have set "disqus_shortname" in your site's "_config.yml" 
-
-duoshuo: 
-  on: true
-  domain: yueji
-  # 是否开启多说评论，http://duoshuo.com/create-site/
-  # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
-  # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
-
 gitment:
   on: true
   owner: xyueji
   repo: xyueji.github.io
-  client_id: 
-  client_secret: 
-
-youyan:
-  on: true
-  id: 
-  # 是否开启友言评论，http://www.uyan.cc/index.php
-  # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
-  # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
-
+  client_id: 8864436c2b03c3753a80
+  client_secret: 252abc963e694743b034294b00a36ec6c7ee2152
 
 # >>> Style Customisation 样式自定义 <<<
 
@@ -130,7 +108,7 @@ tagcloud: false
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  name: http://luuman.github.io/
+  杰瑞博客: https://www.jerryzone.cn/
 
 # 打赏
 # 请在需要打赏的文章的md文件头部，设置属性reward: true

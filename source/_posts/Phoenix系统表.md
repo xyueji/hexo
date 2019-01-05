@@ -9,6 +9,8 @@ categories:
 ---
 Phoenix安装完成后，HBase里会创建相应的系统表，分别为SYSTEM.CATALOG、SYSTEM.FUNCTION、SYSTEM.SEQUENCE、SYSTEM.STATS。  
 查询这些系统表时，注意除了CATALOG表其他都要加引号（区分大小写），否则会报错。
+
+<!--more-->
 ## SYSTEM.CATALOG
 内容是所有表格的信息，系统表和自建表。
 + TABLE_NAME表示索引表名

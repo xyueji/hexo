@@ -11,6 +11,8 @@ categories:
 ```bash
 wget https://github.com/prometheus/prometheus/releases/download/v2.6.0/prometheus-2.6.0.linux-amd64.tar.gz
 ```
+
+<!--more-->
 + 2）解压：
 ```bash	
 tar -zvxf prometheus-2.6.0.linux-amd64.tar.gz
